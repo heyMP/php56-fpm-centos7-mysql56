@@ -22,7 +22,7 @@ yum install -y --enablerepo=remi-php56 php php-apcu php-fpm php-opcache php-cli 
 cat /vagrant/php/www.conf > /etc/php-fpm.d/www.conf
 
 #opcache settings
-cat /vagrant/php/opcache.ini > /etc/php.d/opcache.ini
+cat /vagrant/php/opcache.ini > /etc/php.d/10-opcache.ini
 
 #disable mod_php
 cat /vagrant/php/php.conf > /etc/httpd/conf.d/php.conf
