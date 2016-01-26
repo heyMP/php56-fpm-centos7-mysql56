@@ -72,11 +72,7 @@ sudo systemctl stop firewalld.service
 # Start all the services we use.
 systemctl start php-fpm.service
 systemctl start  mysqld.service
-
-#systemctl enable httpd
-systemctl enable httpd
-#systemctl start httpd
-systemctl start httpd
+systemctl start httpd.service
 
 echo "<?php phpinfo();?>" > /var/www/html/index.php
 
