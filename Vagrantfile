@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  # centos 6.5
+  # centos 7
   config.vm.box = "bradallenfisher/centos7"
   # ip address
   config.vm.network "private_network", ip: "192.168.5.6"
