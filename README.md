@@ -28,6 +28,10 @@ If there was a temp password generated then it will be displayed.  Use this to r
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7
 
+## Disable Root Login w/Password
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
+
 ## Additional Resources
 
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7
