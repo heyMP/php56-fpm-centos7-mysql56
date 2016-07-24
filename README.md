@@ -43,6 +43,12 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
 ## Disable sudo password for wheel users
 
+Add to bottom of `/etc/sudoers`
+
+```
+## Disable sudo password for wheel users
+ALL            ALL = (ALL) NOPASSWD: ALL
+```
 http://serverfault.com/questions/160581/how-to-setup-passwordless-sudo-on-linux
 
 ## Additional Resources
