@@ -43,8 +43,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
 ## Disable sudo password for wheel users
 
-Add to bottom of `/etc/sudoers`
-
+Add to bottom of `/etc/sudoers`. Then restart apache.
 ```
 ## Disable sudo password for wheel users
 ALL            ALL = (ALL) NOPASSWD: ALL
