@@ -24,6 +24,15 @@ grep 'temporary password' /var/log/mysqld.log
 
 If there was a temp password generated then it will be displayed.  Use this to run `mysql_secure_installation`.
 
+## Setting Drupal Permissions
+
+After you have installed Drupal run you can use this script to set security perms.
+
+```
+# Example
+bash ~/php56-fpm-centos7-mysql56/security/drupal-perms.sh --drupal_path=/var/www/html/ --drupal_user=root --httpd_group=apache
+```
+
 ## Setting up users
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7
