@@ -41,6 +41,10 @@ https://www.digitalocean.com/community/tutorials/initial-server-setup-with-cento
 
 https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 
+## Disable sudo password for wheel users
+
+http://serverfault.com/questions/160581/how-to-setup-passwordless-sudo-on-linux
+
 ## Additional Resources
 
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-centos-7
