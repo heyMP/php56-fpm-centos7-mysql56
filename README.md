@@ -44,6 +44,10 @@ After you have installed Drupal run you can use this script to set security perm
 bash ~/php56-fpm-centos7-mysql56/security/drupal-perms.sh --drupal_path=/var/www/html/ --drupal_user=root --httpd_group=apache
 ```
 
+## Install Virtual Hosts
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7
+
 ## Setting up users
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7
