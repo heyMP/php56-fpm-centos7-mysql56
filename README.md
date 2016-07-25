@@ -24,6 +24,17 @@ grep 'temporary password' /var/log/mysqld.log
 
 If there was a temp password generated then it will be displayed.  Use this to run `mysql_secure_installation`.
 
+## Configure Clean URLS
+
+Make sure `AllowOverride ALL` is set for the document root `/var/www/html`
+
+```
+# Example
+<Directory "/var/www/html">
+  AllowOverride ALL
+</Directory>
+```
+
 ## Setting Drupal Permissions
 
 After you have installed Drupal run you can use this script to set security perms.
